@@ -10,7 +10,7 @@ api_key = 'cc37b0614c9981813b5fd8efb1d84684'            # 오픈웨더맵 API �
 bot = Bot(token=my_token)                               # 토큰으로 봇 객체 생성
 
 ALERT_HOURS = [7, 10, 13, 16, 19, 22]                   # 3시간 간격 정각 알림 시간 목록
-ALERT_TIMES = ["08:30", "14:45"]                        # 사용자가 추가 지정한 알림 시간
+ALERT_TIMES = ["11:26", "14:45"]                        # 사용자가 추가 지정한 알림 시간
 
 def getWeather():                                       # 날씨 정보를 가져와 문자열로 반환하는 함수
     url = f"https://api.openweathermap.org/data/2.5/forecast?q=Seoul&appid={api_key}&units=metric&lang=en&cnt=8" # 서울 예보 요청 URL
