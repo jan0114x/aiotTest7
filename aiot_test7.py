@@ -4,9 +4,9 @@ import datetime                                         # 날짜 및 시간 라�
 import asyncio                                          # 비동기 실행 라이브러리
 from telegram import Bot                                # 텔레그램 봇 객체 가져오기
 
-telegram_id = '8424398005'                              # 내 텔레그램 채팅 ID
-my_token = '8616454904:AAHi8Kn600HEHbJ3ptXEll6Ir41Gdof3jYg' # 봇 파더에서 발급받은 토큰
-api_key = 'cc37b0614c9981813b5fd8efb1d84684'            # 오픈웨더맵 API 키
+telegram_id = '84243*****'                              # 내 텔레그램 채팅 ID
+my_token = '************' # 봇 파더에서 발급받은 토큰
+api_key = 'cc37b061**********'            # 오픈웨더맵 API 키
 bot = Bot(token=my_token)                               # 토큰으로 봇 객체 생성
 
 ALERT_HOURS = [7, 10, 13, 16, 19, 22]                   # 3시간 간격 정각 알림 시간 목록
